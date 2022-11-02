@@ -1,0 +1,15 @@
+a[href="/"]:hover {
+    color:yellow;
+}
+
+a[href="/"]:focus {
+    color:black;
+}
+
+a[href="/"]:active {
+    color: red;
+}
+
+a[href="/"]:visited {
+    color:rgb(2, 2, 58);
+}
