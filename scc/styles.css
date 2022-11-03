@@ -1,15 +1,6 @@
-a[href="/"]:hover {
-    color:yellow;
+.project-plan {
+    font-family: Roboto;
 }
-
-a[href="/"]:focus {
-    color:black;
-}
-
-a[href="/"]:active {
-    color: red;
-}
-
-a[href="/"]:visited {
-    color:rgb(2, 2, 58);
+.tittle_name {
+    font-family: releway;
 }
