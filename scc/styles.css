@@ -1,6 +1,107 @@
+/* Загальні правила проєкту */
 .project-plan {
     font-family: Roboto;
+    color: #ffffff;
 }
-.tittle_name {
+li {
+    list-style-type: none;
+}
+
+
+/* Заголовок */
+.title-header {
+    font-family: Raleway;
+    color: #2196F3;
+    font-weight: 700;
+}
+.studio-color {
+    font-family: Raleway;
+    color: #000000;
+    font-weight: 700;
+}
+.active-link {
+    color: #212121;
+    font-weight: 500;
+}
+.active-link:hover {
+    color: #2196F3;
+}
+.active-link:focus {
+    color: #2196F3;
+}
+.email-tittle {
+    color: #2196F3;
+    font-weight: 500;
+}
+.telefone-tittle {
+    color: #757575;
+    font-weight: 500;
+}
+
+
+/* Основная часть сайта */
+.order-window {
+    background-color: #2F303A;
+}
+h1 {
+    font-weight: 900;
+}
+.button-order {
+    color: #ffffff;
+    background-color: #2196F3;
+    font-weight: 700;
+}
+
+h4 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+}
+.features {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+.developer-name {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+}
+.position {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Футтер нашого сайту */
+.address-bar {
+    background-color: #2F303A;
+}
+.tittle-bot {
     font-family: releway;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.address-bottom {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.email-bottom {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff60;
+}
+.telefone-bottom {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff60;
 }
