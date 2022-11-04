@@ -8,6 +8,7 @@ li {
 }
 
 
+
 /* Заголовок */
 .title-header {
     font-family: Raleway;
@@ -39,19 +40,22 @@ li {
 }
 
 
-/* Основная часть сайта */
+
+/* Основная часть индец */
 .order-window {
     background-color: #2F303A;
 }
 h1 {
     font-weight: 900;
 }
-.button-order {
+.button {
     color: #ffffff;
     background-color: #2196F3;
     font-weight: 700;
 }
-
+.button:hover {
+    cursor: pointer;
+}
 h4 {
     color: #212121;
     font-size: 14px;
@@ -78,14 +82,23 @@ h2 {
     font-weight: 400;
 }
 
+/* Основная часть портфолио */
+.picture {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+.activity {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
 /* Футтер нашого сайту */
 .address-bar {
     background-color: #2F303A;
-}
-.tittle-bot {
-    font-family: releway;
-    font-size: 26px;
-    line-height: 30.52px;
 }
 .address-bottom {
     font-style: normal;
