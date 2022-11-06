@@ -3,17 +3,21 @@
     font-family: Roboto;
     color: #ffffff;
 }
-li {
+.dots-disappear {
     list-style-type: none;
 }
 
 
 
 /* Заголовок */
+.links {
+    text-decoration: none;
+}
 .title-header {
     font-family: Raleway;
     color: #2196F3;
     font-weight: 700;
+    line-height: 31px;
 }
 .studio-color {
     font-family: Raleway;
@@ -23,6 +27,7 @@ li {
 .active-link {
     color: #212121;
     font-weight: 500;
+    line-height: 16px;
 }
 .active-link:hover {
     cursor: pointer;
@@ -57,7 +62,7 @@ li {
 .order-window {
     background-color: #2F303A;
 }
-h1 {
+.offer {
     font-weight: 900;
 }
 .button {
@@ -68,7 +73,7 @@ h1 {
 .button:hover {
     cursor: pointer;
 }
-h4 {
+.tittle-explanation {
     color: #212121;
     font-size: 14px;
     font-weight: 700;
@@ -78,7 +83,7 @@ h4 {
     font-size: 14px;
     font-weight: 400;
 }
-h2 {
+.section-tittle {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
