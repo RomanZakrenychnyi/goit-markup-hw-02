@@ -1,103 +1,118 @@
 /* Загальні правила проєкту */
-.project-plan {
+body {
     font-family: Roboto;
     color: #ffffff;
 }
+
 .dots-disappear {
     list-style-type: none;
 }
 
 
-
 /* Заголовок */
-.links {
+.logo {
     text-decoration: none;
 }
+
 .title-header {
     font-family: Raleway;
     color: #2196F3;
     font-weight: 700;
-    line-height: 31px;
 }
+
 .studio-color {
     font-family: Raleway;
     color: #000000;
     font-weight: 700;
 }
+
 .active-link {
     color: #212121;
     font-weight: 500;
-    line-height: 16px;
+    text-decoration: none;
 }
-.active-link:hover {
-    cursor: pointer;
-}
+
+.active-link:hover,
 .active-link:focus {
     color: #2196F3;
 }
+
 .email-tittle {
     color: #757575;
     font-weight: 500;
+    text-decoration: none;
 }
-.email-tittle:hover {
-    cursor: pointer;
-}
+
+.email-tittle:hover,
 .email-tittle:focus {
     color: #2196F3;
 }
+
 .telefone-tittle {
     color: #757575;
     font-weight: 500;
+    text-decoration: none;
 }
-.telefone-tittle:hover {
-    cursor: pointer;
-}
+
+.telefone-tittle:hover,
 .telefone-tittle:focus {
     color: #2196F3;
 }
-
 
 
 /* Основная часть индец */
 .order-window {
     background-color: #2F303A;
 }
+
 .offer {
     font-weight: 900;
 }
-.button {
+
+.bt-order {
     color: #ffffff;
     background-color: #2196F3;
     font-weight: 700;
 }
-.button:hover {
+
+.bt-order:hover {
     cursor: pointer;
 }
+
+.bt-order:focus {
+    visibility: hidden;
+} 
+
 .tittle-explanation {
     color: #212121;
     font-size: 14px;
     font-weight: 700;
 }
+
 .features {
     color: #757575;
     font-size: 14px;
     font-weight: 400;
 }
+
 .section-tittle {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
 }
+
 .developer-name {
     color: #212121;
     font-size: 16px;
     font-weight: 500;
 }
+
 .position {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
+
 
 /* Основная часть портфолио */
 .picture {
@@ -105,51 +120,63 @@
     font-size: 18px;
     font-weight: 700;
 }
+
 .activity {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
 
+.bt-nav {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bt-nav:hover,
+.bt-nav:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
 
 
 /* Футтер нашого сайту */
 .address-bar {
     background-color: #2F303A;
 }
+
 .address-bottom {
-    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff60;
+    text-decoration: none;
 }
-.address-bottom:hover {
-    cursor: pointer;
-}
+
+.address-bottom:hover,
 .address-bottom:focus {
-    color: #ffffff;
-}
+    color: #FFFFFF;
+} 
+
 .email-bottom {
-    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff60;
+    text-decoration: none;
 }
-.email-bottom:hover {
-    cursor: pointer;
-}
+
+.email-bottom:hover,
 .email-bottom:focus {
-    color: #ffffff;
+    color: #FFFFFF;
 }
+
 .telefone-bottom {
-    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff60;
+    text-decoration: none;
 }
-.telefone-bottom:hover {
-    cursor: pointer;
-}
+
+.telefone-bottom:hover,
 .telefone-bottom:focus {
-    color: #ffffff;
+    color: #FFFFFF;
 }
