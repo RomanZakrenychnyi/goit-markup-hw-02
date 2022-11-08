@@ -4,124 +4,139 @@ body {
     color: #ffffff;
 }
 
-.dots-disappear {
-    list-style-type: none;
-}
-
-
 /* Заголовок */
-.logo {
+.site-top-logo {
     text-decoration: none;
     line-height: 1;
 }
 
-.title-header {
+.site-top-name {
     font-family: Raleway;
     color: #2196F3;
     font-weight: 700;
 }
 
-.studio-color {
+.site-top-color {
     font-family: Raleway;
     color: #000000;
     font-weight: 700;
 }
 
-.active-link {
+.site-top-dots {
+    list-style-type: none;
+}
+
+.site-top-link {
     color: #212121;
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
 }
 
-.active-link:hover,
-.active-link:focus {
+.site-top-link:hover,
+.site-top-link:focus {
     color: #2196F3;
 }
 
-.email-tittle {
+.site-top-email {
     color: #757575;
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
 }
 
-.email-tittle:hover,
-.email-tittle:focus {
+.site-top-email:hover,
+.site-top-email:focus {
     color: #2196F3;
 }
 
-.telefone-tittle {
+.site-top-tel {
     color: #757575;
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
 }
 
-.telefone-tittle:hover,
-.telefone-tittle:focus {
+.site-top-tel:hover,
+.site-top-tel:focus {
     color: #2196F3;
 }
 
 
 /* Основная часть индец */
-.order-window {
+.order {
     background-color: #2F303A;
 }
 
-.offer {
+.order-text {
     font-weight: 900;
     line-height: 2;
 }
 
-.bt-order {
+.order-bt {
     color: #ffffff;
     background-color: #2196F3;
     font-weight: 700;
     line-height: 1;
 }
 
-.bt-order:hover {
+.order-bt:hover {
     cursor: pointer;
 }
 
-.bt-order:focus {
+.order-bt:focus {
     visibility: hidden;
 } 
 
-.tittle-explanation {
+.spacials-tittle {
     color: #212121;
     font-size: 14px;
     font-weight: 700;
     line-height: 1;
 }
 
-.features {
+.spacials-text {
     color: #757575;
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
 }
 
-.section-tittle {
+.presentation-tittle {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
     line-height: 1;
 }
 
-.section-bg {
+.presentation-dots {
+    list-style-type: none;
+}
+
+.team {
     background-color: #F5F4FA;
 }
 
-.developer-name {
+.team-tittle {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+
+}
+
+.team-dots {
+    list-style-type: none;
+}
+
+.team-name {
     color: #212121;
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
 }
 
-.position {
+.team-job {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
@@ -130,26 +145,30 @@ body {
 
 
 /* Основная часть портфолио */
-.bt-nav {
+.portfolio {
+    background-color: #F5F5F5;
+}
+
+.portfolio-bt {
     color: #212121;
     font-size: 16px;
     font-weight: 500;
 }
 
-.bt-nav:hover,
-.bt-nav:focus {
+.portfolio-bt:hover,
+.portfolio-bt:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 
-.picture {
+.portfolio-picture {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
 }
 
-.activity {
+.portfolio-text {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
@@ -158,11 +177,32 @@ body {
 
 
 /* Футтер нашого сайту */
-.address-bar {
+.footr {
     background-color: #2F303A;
 }
 
-.address-bottom {
+.footr-logo {
+    text-decoration: none;
+    line-height: 1;
+}
+
+.footr-name {
+    font-family: Raleway;
+    color: #2196F3;
+    font-weight: 700;
+}
+
+.footr-color {
+    font-family: Raleway;
+    color: #000000;
+    font-weight: 700;
+}
+
+.footr-dots {
+    list-style-type: none;
+}
+
+.footr-address {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff60;
@@ -170,12 +210,12 @@ body {
     line-height: 1;
 }
 
-.address-bottom:hover,
-.address-bottom:focus {
+.footr-address:hover,
+.footr-address:focus {
     color: #FFFFFF;
 } 
 
-.email-bottom {
+.footr-email {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff60;
@@ -183,12 +223,12 @@ body {
     line-height: 1;
 }
 
-.email-bottom:hover,
-.email-bottom:focus {
+.footr-email:hover,
+.footr-email:focus {
     color: #FFFFFF;
 }
 
-.telefone-bottom {
+.footr-telefone {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff60;
@@ -196,7 +236,7 @@ body {
     line-height: 1;
 }
 
-.telefone-bottom:hover,
-.telefone-bottom:focus {
+.footr-telefone:hover,
+.footr-telefone:focus {
     color: #FFFFFF;
 }
