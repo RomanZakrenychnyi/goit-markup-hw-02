@@ -156,6 +156,12 @@ body {
 /* Основная часть портфолио */
 .portfolio {
     background-color: #F5F5F5;
+    list-style-type: none;
+}
+
+.portfolio-nav,
+.portfolio-projects {
+    list-style-type: none;
 }
 
 .portfolio-bt {
