@@ -1,7 +1,16 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #2196F3;
+    --grey : #757575;
+    --nero: #212121;
+    --black-rock: #2F303A;
+}
+
 /* Загальні правила проєкту */
 body {
     font-family: Roboto;
-    color: #ffffff;
+    color: var(--white);
 }
 
 /* Заголовок */
@@ -12,13 +21,13 @@ body {
 
 .site-top-name {
     font-family: Raleway;
-    color: #2196F3;
+    color: var(--blue);;
     font-weight: 700;
 }
 
 .site-top-color {
     font-family: Raleway;
-    color: #000000;
+    color: var(--black);
     font-weight: 700;
 }
 
@@ -27,7 +36,7 @@ body {
 }
 
 .site-top-link {
-    color: #212121;
+    color: var(--nero);;
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
@@ -35,11 +44,11 @@ body {
 
 .site-top-link:hover,
 .site-top-link:focus {
-    color: #2196F3;
+    color: var(--blue);;
 }
 
 .site-top-email {
-    color: #757575;
+    color: var(--grey);;
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
@@ -47,11 +56,11 @@ body {
 
 .site-top-email:hover,
 .site-top-email:focus {
-    color: #2196F3;
+    color: var(--blue);;
 }
 
 .site-top-tel {
-    color: #757575;
+    color: var(--grey);;
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
@@ -59,13 +68,13 @@ body {
 
 .site-top-tel:hover,
 .site-top-tel:focus {
-    color: #2196F3;
+    color: var(--blue);;
 }
 
 
 /* Основная часть индец */
 .order {
-    background-color: #2F303A;
+    background-color: var(--black-rock);;
 }
 
 .order-text {
@@ -74,8 +83,8 @@ body {
 }
 
 .order-bt {
-    color: #ffffff;
-    background-color: #2196F3;
+    color: var(--white);
+    background-color: var(--blue);;
     font-weight: 700;
     line-height: 1;
 }
@@ -89,21 +98,21 @@ body {
 } 
 
 .spacials-tittle {
-    color: #212121;
+    color: var(--nero);;
     font-size: 14px;
     font-weight: 700;
     line-height: 1;
 }
 
 .spacials-text {
-    color: #757575;
+    color: var(--grey);;
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
 }
 
 .presentation-tittle {
-    color: #212121;
+    color: var(--nero);;
     font-size: 36px;
     font-weight: 700;
     line-height: 1;
@@ -118,7 +127,7 @@ body {
 }
 
 .team-tittle {
-    color: #212121;
+    color: var(--nero);;
     font-size: 36px;
     font-weight: 700;
     line-height: 1;
@@ -130,14 +139,14 @@ body {
 }
 
 .team-name {
-    color: #212121;
+    color: var(--nero);;
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
 }
 
 .team-job {
-    color: #757575;
+    color: var(--grey);;
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
@@ -150,26 +159,26 @@ body {
 }
 
 .portfolio-bt {
-    color: #212121;
+    color: var(--nero);;
     font-size: 16px;
     font-weight: 500;
 }
 
 .portfolio-bt:hover,
 .portfolio-bt:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--white);
+    background-color: var(--blue);;
 }
 
 .portfolio-picture {
-    color: #212121;
+    color: var(--nero);;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
 }
 
 .portfolio-text {
-    color: #757575;
+    color: var(--grey);;
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
@@ -178,7 +187,7 @@ body {
 
 /* Футтер нашого сайту */
 .footr {
-    background-color: #2F303A;
+    background-color: var(--black-rock);;
 }
 
 .footr-logo {
@@ -188,13 +197,13 @@ body {
 
 .footr-name {
     font-family: Raleway;
-    color: #2196F3;
+    color: var(--blue);;
     font-weight: 700;
 }
 
 .footr-color {
     font-family: Raleway;
-    color: #000000;
+    color: var(--black);;
     font-weight: 700;
 }
 
@@ -212,7 +221,7 @@ body {
 
 .footr-address:hover,
 .footr-address:focus {
-    color: #FFFFFF;
+    color: var(--white);
 } 
 
 .footr-email {
@@ -225,7 +234,7 @@ body {
 
 .footr-email:hover,
 .footr-email:focus {
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .footr-telefone {
@@ -238,5 +247,5 @@ body {
 
 .footr-telefone:hover,
 .footr-telefone:focus {
-    color: #FFFFFF;
+    color: var(--white);
 }
