@@ -1,5 +1,13 @@
+/*  font
+    line-height
+    color
+    text-decoration
+    backgroud-color 
+*/
+
 :root {
     --white: #ffffff;
+    --whtesmoke: #F5F5F5;
     --black: #000000;
     --blue: #2196F3;
     --grey : #757575;
@@ -10,10 +18,15 @@
 /* Загальні правила проєкту */
 body {
     font-family: Roboto;
-    color: var(--white);
+    color: var(--nero);
+    background-color: var(--whtesmoke);
 }
 
 /* Заголовок */
+.site-top {
+background-color: var(--white);
+}
+
 .site-top-logo {
     text-decoration: none;
     line-height: 1;
@@ -32,7 +45,7 @@ body {
 }
 
 .site-top-dots {
-    list-style-type: none;
+    list-style: none;
 }
 
 .site-top-link {
@@ -80,6 +93,7 @@ body {
 .order-text {
     font-weight: 900;
     line-height: 2;
+    color: var(--white);
 }
 
 .order-bt {
@@ -119,7 +133,7 @@ body {
 }
 
 .presentation-dots {
-    list-style-type: none;
+    list-style: none;
 }
 
 .team {
@@ -135,7 +149,7 @@ body {
 }
 
 .team-dots {
-    list-style-type: none;
+    list-style: none;
 }
 
 .team-name {
@@ -156,12 +170,12 @@ body {
 /* Основная часть портфолио */
 .portfolio {
     background-color: #F5F5F5;
-    list-style-type: none;
+    list-style: none;
 }
 
 .portfolio-nav,
 .portfolio-projects {
-    list-style-type: none;
+    list-style: none;
 }
 
 .portfolio-bt {
@@ -209,12 +223,12 @@ body {
 
 .footr-color {
     font-family: Raleway;
-    color: var(--black);
     font-weight: 700;
+    color: var(--white);
 }
 
 .footr-dots {
-    list-style-type: none;
+    list-style: none;
 }
 
 .footr-address {
