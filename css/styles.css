@@ -109,7 +109,11 @@ background-color: var(--white);
 
 .order-bt:focus {
     visibility: hidden;
-} 
+}
+
+.spacials-dots {
+    list-style: none;
+}
 
 .spacials-tittle {
     color: var(--nero);
