@@ -1,7 +1,7 @@
 
 :root {
     --white: #ffffff;
-    --whtesmoke: #F5F5F5;
+    --whitesmoke: #F5F5F5;
     --black: #000000;
     --blue: #2196F3;
     --grey : #757575;
@@ -13,7 +13,7 @@
 body {
     font-family: Roboto;
     color: var(--nero);
-    background-color: var(--whtesmoke);
+    background-color: var(--whitesmoke);
 }
 
 /* Заголовок */
@@ -184,6 +184,9 @@ background-color: var(--white);
 
 .portfolio-bt {
     color: var(--nero);
+    cursor: pointer;
+    font-family: "roboto";
+    font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
